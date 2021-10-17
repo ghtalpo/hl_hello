@@ -1,0 +1,41 @@
+{
+	"skipTerminateQuickPick": true,
+	"skipSwitchToOutput": false,
+	"skipErrorMessage": true,
+	"commands": [
+		{
+			"text": "🍊 HL",
+			"color": "orange",
+			"commandType":"exec",
+			"command": "haxe hl.sdl.hxml",
+			"alignment": "right",
+			"skipTerminateQuickPick": false,
+			"priority": -10
+		},
+		{
+			"text": "Run HL",
+			"color": "orange",
+			"command": "hl bin/client.hl",
+			"alignment": "right",
+			"skipTerminateQuickPick": false,
+			"priority": -11
+		},
+		{
+			"text": "☕ JS",
+			"color": "yellow",
+			"commandType":"exec",
+			"command": "haxe js.hxml",
+			"alignment": "right",
+			"skipTerminateQuickPick": false,
+			"priority": -20
+		},
+		{
+			"text": "Run JS",
+			"color": "yellow",
+			"command": "start js.html",
+			"alignment": "right",
+			"skipTerminateQuickPick": false,
+			"priority": -21
+		}
+	]
+}
